@@ -1,3 +1,3 @@
 # output
 
-This repository is used for storing output data for submission.
+This directory is used for storing output data for submission.
