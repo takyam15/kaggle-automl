@@ -1,9 +1,9 @@
 version: '3'
 services:
-  miniconda:
+  jupyter:
     build: .
     platform: linux/x86_64
-    image: takyam15/py-bioinfo
+    image: takyam15/kaggle-automl
     container_name: jupyterlab
     command: jupyter lab --ip=0.0.0.0 --allow-root --LabApp.token=''
     ports:
